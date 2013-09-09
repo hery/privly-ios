@@ -7,7 +7,6 @@
 #import "ApplicationTypeViewController.h"
 #import "ContentServerViewController.h"
 #import "LoginViewController.h"
-#import "ReadingModeViewController.h"
 #import "PostTypeViewController.h"
 
 @interface ApplicationTypeViewController ()
@@ -67,8 +66,8 @@
 }
 
 - (IBAction)readingMode:(id)sender {
-    ReadingModeViewController *readingModeViewController = [[ReadingModeViewController alloc] init];
-    [self.navigationController pushViewController:readingModeViewController animated:YES];
+    UIAlertView *readingModeAlert = [[UIAlertView alloc] initWithTitle:@"Hold on!" message:@"The reading application is currently being implemented." delegate:self cancelButtonTitle:@"Back" otherButtonTitles:nil];
+    [readingModeAlert show];
 }
 
 - (IBAction)contentServer:(id)sender {

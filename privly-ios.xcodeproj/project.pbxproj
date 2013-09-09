@@ -34,9 +34,6 @@
 		9980CF2117DA82A6008D5C86 /* CreatePostViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9980CF2017DA82A6008D5C86 /* CreatePostViewControllerTest.m */; };
 		9997555217CD331600059FD0 /* PostTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9997555117CD331600059FD0 /* PostTypeViewController.m */; };
 		99A3E44017C4CDF90036F720 /* logo_large_bleed.png in Resources */ = {isa = PBXBuildFile; fileRef = 99A3E43F17C4CDF90036F720 /* logo_large_bleed.png */; };
-		99C3D9F717BFC27B007C3B2A /* PostReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C3D9F517BFC27B007C3B2A /* PostReadingViewController.m */; };
-		99C3D9F817BFC27B007C3B2A /* PostReadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C3D9F617BFC27B007C3B2A /* PostReadingViewController.xib */; };
-		99C3D9FC17BFC5CD007C3B2A /* ReadingModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C3D9FB17BFC5CD007C3B2A /* ReadingModeViewController.m */; };
 		99C6F77C177E150A00C21BDF /* privly-applications in Resources */ = {isa = PBXBuildFile; fileRef = 99C6F77B177E150A00C21BDF /* privly-applications */; };
 		99C91D5517BFCBF50095621C /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 99C91D5317BFCBF50095621C /* fishhook.c */; };
 		99C91D5717BFCC0C0095621C /* QuietAssertMacros.c in Sources */ = {isa = PBXBuildFile; fileRef = 99C91D5617BFCC0C0095621C /* QuietAssertMacros.c */; };
@@ -109,11 +106,6 @@
 		9997555017CD331600059FD0 /* PostTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostTypeViewController.h; sourceTree = "<group>"; };
 		9997555117CD331600059FD0 /* PostTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTypeViewController.m; sourceTree = "<group>"; };
 		99A3E43F17C4CDF90036F720 /* logo_large_bleed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_large_bleed.png; sourceTree = "<group>"; };
-		99C3D9F417BFC27B007C3B2A /* PostReadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostReadingViewController.h; sourceTree = "<group>"; };
-		99C3D9F517BFC27B007C3B2A /* PostReadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostReadingViewController.m; sourceTree = "<group>"; };
-		99C3D9F617BFC27B007C3B2A /* PostReadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostReadingViewController.xib; sourceTree = "<group>"; };
-		99C3D9FA17BFC5CD007C3B2A /* ReadingModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingModeViewController.h; sourceTree = "<group>"; };
-		99C3D9FB17BFC5CD007C3B2A /* ReadingModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadingModeViewController.m; sourceTree = "<group>"; };
 		99C6F77B177E150A00C21BDF /* privly-applications */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "privly-applications"; sourceTree = "<group>"; };
 		99C91D5317BFCBF50095621C /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
 		99C91D5417BFCBF50095621C /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
@@ -220,7 +212,6 @@
 				99166D3B17945B7000AEADA2 /* ContentServerViewController.h */,
 				99166D3C17945B7000AEADA2 /* ContentServerViewController.m */,
 				99166D3D17945B7000AEADA2 /* ContentServerViewController.xib */,
-				9989CC0417B78659004BFBE0 /* Reading App */,
 				9989CC0317B78653004BFBE0 /* Posting App */,
 				99B6B295177D35060002F7E6 /* Resources */,
 				358D71CA1724752700979F57 /* Supporting Files */,
@@ -298,18 +289,6 @@
 				996E2635175695BC003B51A5 /* Destination */,
 			);
 			name = "Posting App";
-			sourceTree = "<group>";
-		};
-		9989CC0417B78659004BFBE0 /* Reading App */ = {
-			isa = PBXGroup;
-			children = (
-				99C3D9F417BFC27B007C3B2A /* PostReadingViewController.h */,
-				99C3D9F517BFC27B007C3B2A /* PostReadingViewController.m */,
-				99C3D9F617BFC27B007C3B2A /* PostReadingViewController.xib */,
-				99C3D9FA17BFC5CD007C3B2A /* ReadingModeViewController.h */,
-				99C3D9FB17BFC5CD007C3B2A /* ReadingModeViewController.m */,
-			);
-			name = "Reading App";
 			sourceTree = "<group>";
 		};
 		99B6B295177D35060002F7E6 /* Resources */ = {
@@ -429,7 +408,6 @@
 				358D71D81724752700979F57 /* Default@2x.png in Resources */,
 				358D71DA1724752700979F57 /* Default-568h@2x.png in Resources */,
 				35A943FD1731A2F0009052DC /* ApplicationTypeViewController.xib in Resources */,
-				99C3D9F817BFC27B007C3B2A /* PostReadingViewController.xib in Resources */,
 				99E32A8C17C3C7A200FB5992 /* InitViewController.xib in Resources */,
 				35A944011731A497009052DC /* LoginViewController.xib in Resources */,
 				99E4E363177B622A006DD692 /* CreatePostViewController.xib in Resources */,
@@ -480,8 +458,6 @@
 				99E4E362177B5E7B006DD692 /* CreatePostViewController.m in Sources */,
 				99166D3E17945B7000AEADA2 /* ContentServerViewController.m in Sources */,
 				99E32A8E17C3C7C800FB5992 /* InitViewController.m in Sources */,
-				99C3D9FC17BFC5CD007C3B2A /* ReadingModeViewController.m in Sources */,
-				99C3D9F717BFC27B007C3B2A /* PostReadingViewController.m in Sources */,
 				996E263317568F28003B51A5 /* PlainPostDestinationViewController.m in Sources */,
 				99C91D5517BFCBF50095621C /* fishhook.c in Sources */,
 				99EC26A71757BCB000EC234F /* SocialNetworksRequest.m in Sources */,

@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "privly-ios-tests/ApplicationTypeViewControllerTest.m"
-            timestampString = "399677369.916318"
+            timestampString = "400378838.009966"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
             landmarkName = "@implementation ApplicationTypeViewControllerTest"
             landmarkType = "3">
          </BreakpointContent>

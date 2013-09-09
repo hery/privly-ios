@@ -8,7 +8,6 @@
 #import "ApplicationTypeViewController.h"
 #import "LoginViewController.h"
 #import "PostTypeViewController.h"
-#import "ReadingModeViewController.h"
 #import "ContentServerViewController.h"
 
 @implementation ApplicationTypeViewControllerTest
@@ -61,13 +60,6 @@
     STAssertEquals([applicationTypeViewController.navigationController.topViewController class],
                    [PostTypeViewController class],
                    @"CreatePost method failed to push a new PostTypeViewController");
-}
-
-- (void)testReadingModeMethod {
-    [applicationTypeViewController readingMode:nil];
-    STAssertEquals([applicationTypeViewController.navigationController.topViewController class],
-                   [ReadingModeViewController class],
-                   @"ReadingMode method failed to push a new ReadingModeViewController");
 }
 
 - (void)testContentServerMethod {
